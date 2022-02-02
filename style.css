@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/* header */
+header {
+    height: 60px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+}
+
+header::after{
+    clear: both;
+}
+
+.header_left{
+    width: 50%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.header_right{
+    width: 40%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+
+
+
+/* main */
+
+main {
+    height: calc(100vh - 100px);;
+    padding-top: 50px;
+    background-color: 011627;
+}
+
+body {
+    background-color: #011627;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+#grid {
+    height: 100%;
+}
+
+#grid:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.square {
+    border: solid 1px #fff;
+    width: calc(100%/8);
+    height: calc(100%/8);
+    float: left;
+    text-align: center;
+    padding: 20px;
+}
+
+.clicked{
+    background-color: aquamarine;
+}
+
+.bomb{
+    background-color: red;
+}
+
+#difficolta{
+    width: 100px;
+}
+
+#bottone{
+    width: 80px;
+}
+
+
+/* footer */
+footer{
+    margin-top: 30px;
+    height: 40px;
+    width: 100%;
+    background-color: #fff;
+}
+
+footer h3{
+    text-align: center;
+    width: 50%;
+    padding-top: 10px;
+}
